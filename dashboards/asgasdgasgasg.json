@@ -100,7 +100,7 @@
           "sort": "none"
         }
       },
-      "title": "Panel Title",
+      "title": "Random walk",
       "type": "timeseries"
     }
   ],
@@ -118,6 +118,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "asgasdgasgasg",
+  "uid": "it-B/asgasdgasgasg",
   "version": 0,
   "weekStart": ""
 }
