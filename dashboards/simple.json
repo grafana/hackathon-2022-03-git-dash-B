@@ -35,7 +35,7 @@
       "description": "",
       "gridPos": {
         "h": 9,
-        "w": 8,
+        "w": 12,
         "x": 0,
         "y": 0
       },
@@ -44,7 +44,7 @@
         "content": "# EEEEEEEEEEEEEEE\n\nSource from\n\nhttps://github.com/grafana/hackathon-2022-03-git-dash-B",
         "mode": "markdown"
       },
-      "pluginVersion": "8.5.0-pre",
+      "pluginVersion": "9.1.0-pre",
       "title": "git the things",
       "type": "text"
     },
@@ -145,6 +145,9 @@
             "type": "markers"
           }
         ],
+        "tooltip": {
+          "mode": "details"
+        },
         "view": {
           "id": "coords",
           "lat": 37.863741,
@@ -152,7 +155,7 @@
           "zoom": 4
         }
       },
-      "pluginVersion": "8.5.0-pre",
+      "pluginVersion": "9.1.0-pre",
       "targets": [
         {
           "csvFileName": "flight_info_by_state.csv",
@@ -181,6 +184,21 @@
         "type": "grafana",
         "uid": "grafana"
       },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
       "gridPos": {
         "h": 9,
         "w": 12,
@@ -194,6 +212,43 @@
       "legend": {
         "show": false
       },
+      "options": {
+        "calculate": true,
+        "calculation": {},
+        "cellGap": 2,
+        "cellValues": {},
+        "color": {
+          "exponent": 0.5,
+          "fill": "#b4ff00",
+          "mode": "scheme",
+          "scale": "exponential",
+          "scheme": "Oranges",
+          "steps": 128
+        },
+        "exemplars": {
+          "color": "rgba(255,0,255,0.7)"
+        },
+        "filterValues": {
+          "le": 1e-9
+        },
+        "legend": {
+          "show": false
+        },
+        "rowsFrame": {
+          "layout": "auto"
+        },
+        "showValue": "never",
+        "tooltip": {
+          "show": true,
+          "yHistogram": false
+        },
+        "yAxis": {
+          "axisPlacement": "left",
+          "reverse": false,
+          "unit": "short"
+        }
+      },
+      "pluginVersion": "9.1.0-pre",
       "reverseYBuckets": false,
       "targets": [
         {
@@ -221,7 +276,7 @@
       "yBucketBound": "auto"
     }
   ],
-  "schemaVersion": 36,
+  "schemaVersion": 37,
   "style": "dark",
   "tags": [],
   "templating": {
@@ -234,7 +289,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "From BBB",
-  "uid": "it-B/simple",
+  "uid": "it-B/simple.json",
   "version": 0,
   "weekStart": ""
 }
