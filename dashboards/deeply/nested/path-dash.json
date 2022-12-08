@@ -78,6 +78,7 @@
           "exponent": 0.5,
           "fill": "#b4ff00",
           "mode": "scheme",
+          "reverse": false,
           "scale": "exponential",
           "scheme": "Oranges",
           "steps": 128
@@ -105,7 +106,7 @@
           "unit": "short"
         }
       },
-      "pluginVersion": "9.2.0-pre",
+      "pluginVersion": "9.4.0-pre",
       "reverseYBuckets": false,
       "targets": [
         {
@@ -234,13 +235,14 @@
           "mode": "details"
         },
         "view": {
+          "allLayers": true,
           "id": "coords",
           "lat": 37.863741,
           "lon": -91.939774,
           "zoom": 4
         }
       },
-      "pluginVersion": "9.2.0-pre",
+      "pluginVersion": "9.4.0-pre",
       "targets": [
         {
           "csvFileName": "flight_info_by_state.csv",
@@ -277,7 +279,7 @@
         "content": "# EEEEEEEEEEEEEEE\n\nSource from\n\nhttps://github.com/grafana/hackathon-2022-03-git-dash-B",
         "mode": "markdown"
       },
-      "pluginVersion": "9.2.0-pre",
+      "pluginVersion": "9.4.0-pre",
       "title": "git the things",
       "type": "text"
     }
@@ -295,7 +297,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "From BBB",
-  "uid": "it-B/deeply/nested/path-dash.json",
+  "uid": "content/it-B/deeply/nested/path-dash.json",
   "version": 0,
   "weekStart": ""
 }
