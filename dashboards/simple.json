@@ -41,10 +41,15 @@
       },
       "id": 4,
       "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
         "content": "# EEEEEEEEEEEEEEE\n\nSource from\n\nhttps://github.com/grafana/hackathon-2022-03-git-dash-B",
         "mode": "markdown"
       },
-      "pluginVersion": "9.1.0-pre",
+      "pluginVersion": "9.4.0-pre",
       "title": "git the things",
       "type": "text"
     },
@@ -99,6 +104,7 @@
           "mouseWheelZoom": true,
           "showAttribution": true,
           "showDebug": false,
+          "showMeasure": false,
           "showScale": false,
           "showZoom": true
         },
@@ -149,13 +155,14 @@
           "mode": "details"
         },
         "view": {
+          "allLayers": true,
           "id": "coords",
           "lat": 37.863741,
           "lon": -91.939774,
           "zoom": 4
         }
       },
-      "pluginVersion": "9.1.0-pre",
+      "pluginVersion": "9.4.0-pre",
       "targets": [
         {
           "csvFileName": "flight_info_by_state.csv",
@@ -221,6 +228,7 @@
           "exponent": 0.5,
           "fill": "#b4ff00",
           "mode": "scheme",
+          "reverse": false,
           "scale": "exponential",
           "scheme": "Oranges",
           "steps": 128
@@ -248,7 +256,7 @@
           "unit": "short"
         }
       },
-      "pluginVersion": "9.1.0-pre",
+      "pluginVersion": "9.4.0-pre",
       "reverseYBuckets": false,
       "targets": [
         {
@@ -289,7 +297,6 @@
   "timepicker": {},
   "timezone": "",
   "title": "From BBB",
-  "uid": "it-B/simple.json",
   "version": 0,
   "weekStart": ""
 }
