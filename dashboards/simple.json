@@ -49,7 +49,7 @@
         "content": "# EEEEEEEEEEEEEEE\n\nSource from\n\nhttps://github.com/grafana/hackathon-2022-03-git-dash-B",
         "mode": "markdown"
       },
-      "pluginVersion": "9.4.0-pre",
+      "pluginVersion": "9.5.0-pre",
       "title": "git the things",
       "type": "text"
     },
@@ -162,7 +162,7 @@
           "zoom": 4
         }
       },
-      "pluginVersion": "9.4.0-pre",
+      "pluginVersion": "9.5.0-pre",
       "targets": [
         {
           "csvFileName": "flight_info_by_state.csv",
@@ -256,7 +256,7 @@
           "unit": "short"
         }
       },
-      "pluginVersion": "9.4.0-pre",
+      "pluginVersion": "9.5.0-pre",
       "reverseYBuckets": false,
       "targets": [
         {
@@ -284,7 +284,9 @@
       "yBucketBound": "auto"
     }
   ],
-  "schemaVersion": 37,
+  "refresh": "",
+  "revision": 1,
+  "schemaVersion": 38,
   "style": "dark",
   "tags": [],
   "templating": {
